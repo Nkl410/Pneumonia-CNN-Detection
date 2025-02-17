@@ -117,7 +117,6 @@ history = model.fit(
 print(history)
 
 model.save("X_ray_cnn.h5")
-
 #4. Compilation et Entraînement
 #Une fois le modèle construit, il doit être compilé avec :
 

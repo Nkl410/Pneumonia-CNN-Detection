@@ -20,6 +20,7 @@ async def predict(file: UploadFile = File(...)):
     # Lire l'image
     contents = await file.read()
     image = Image.open(io.BytesIO(contents))
+    
 
     # Prétraitement (adapté au modèle)
     image = image.resize((150, 150))
