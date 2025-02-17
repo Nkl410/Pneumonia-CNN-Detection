@@ -1,0 +1,6 @@
+# Ignorer les fichiers lourds et non nécessaires
+.venv/
+*.h5
+xray_dataset_covid19/
+
+
