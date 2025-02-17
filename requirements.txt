@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+tensorflow
+pillow
+sqlalchemy
+databases
+psycopg2-binary
